@@ -1,0 +1,181 @@
+
+.homepage{
+
+    background-image: url(./images/homepagepet.png),linear-gradient(90deg, rgba(133,228,255,1) 35%, rgba(241,173,250,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 685px;
+}
+
+.navbarmain{
+
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    
+
+    
+
+}
+.homepagepet{
+
+    padding: 50px;
+    height: 25px;
+    position: relative;
+    transform: none;
+
+}
+.navcontent{
+
+    padding: 50px;
+    display: flex;
+    gap: 100px;
+
+}
+.navcontent>h3:hover{
+
+    color: rgb(224, 9, 124);
+    cursor: pointer;
+
+}
+.homecontent2{
+
+    padding: 100px;
+    height: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #606060;
+    
+
+}
+.btn{
+
+    display: flex;
+    justify-content: left; 
+    gap: 50px;
+
+
+}
+.homebtn{
+
+    height: 30px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(224, 9, 124);
+    color: rgb(224, 9, 124);
+    padding-bottom: 1px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-color: white;
+
+}
+.homebtn:hover{
+
+    cursor: pointer;
+    color: white;
+    background-color: rgb(224, 9, 124);
+
+}
+.groomsecmain{
+
+    height: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+.groomsec{
+
+    width: 1000px;
+    height: 150px;
+    /* background-color: rgba(166, 238, 234, 0.292); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.page3{
+
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+
+}
+.page3content{
+
+    padding-top: 80px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.page3content>p{
+
+color: gray;
+
+}
+.page4{
+
+   
+   display: flex;
+   justify-content: center;
+
+}
+.page4>h1{
+
+   font-size: xx-large;
+   height: 300px;
+   
+
+}
+.page4btndiv{
+
+    /* text-align: center; */
+
+}
+.page4btndiv>button{
+
+    background-color: white;
+    border-width: 1px;
+    height: 40px;
+    width: 150px;
+    color: rgb(224, 9, 124);
+    border-radius: 20px;
+    border-color: rgb(224, 9, 124);
+    border-style: solid;
+
+}
+.page4btndiv>button:hover{
+
+    cursor: pointer;
+    color: white;
+    background-color: rgb(224, 9, 124);
+
+}
+.page4content>p{
+
+    color: grey;
+    font-size: large;
+
+}
+.btnknowmore{
+
+
+   background-color: white;
+   height: 40px;
+   width: 150px;
+   border-style: solid;
+   border-width: 1px;
+   color: rgb(224, 9, 124);
+   border-color: rgb(224, 9, 124);
+   border-radius: 20px;
+
+}
+.btnknowmore:hover{
+
+    background-color: rgb(224, 9, 124);
+    color: white;
+    cursor: pointer;
+
+}
